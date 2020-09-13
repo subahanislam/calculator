@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> project calculator</title>
+    <link rel="stylesheet" href="project.css">
+</head>
+<body>
+    <h1 style="text-align: center;">calculator</h1>
+    <div class="card">
+        <div class="head"> <input type="text" max="20" id="babu"></div>
+        <div class="body"><div><input type="button" value="1" class="btn"> </div> 
+        <div><input type="button" value="2" class="btn"> </div>
+        <div><input type="button" value="3" class="btn"> </div>
+        <div><input type="button" value="AC" class="btn"> </div>
+    </div>
+    
+        <div class="body"><div><input type="button" value="4" class="btn"> </div> 
+        <div><input type="button" value="5" class="btn"> </div>
+        <div><input type="button" value="6" class="btn"> </div>
+        <div><input type="button" value="*" class="btn"> </div>
+    </div>
+    
+        <div class="body"><div><input type="button" value="7" class="btn"> </div> 
+        <div><input type="button" value="8" class="btn"> </div>
+        <div><input type="button" value="9" class="btn"> </div>
+        <div><input type="button" value="+" class="btn"> </div>
+    </div>
+    
+        <div class="body"><div><input type="button" value="0" class="btn"> </div> 
+        <div><input type="button" value="." class="btn"> </div>
+        <div><input type="button" value="ans" class="btn"> </div>
+        <div><input type="button" value="=" class="btn"> </div>
+    </div>
+    <div class="body"><div><input type="button" value="-" class="btn"> </div> 
+        <div><input type="button" value="/" class="btn"> </div>
+        <div><input type="button" value=";" class="btn"> </div>
+        <div><input type="button" value="%" class="btn"> </div>
+    </div>
+    </div>
+    <script>
+        var n1=prompt("enter the 1st number:");
+        var n2=prompt("enter the 2nd number:");
+        n1=parseInt(n1,10);
+        n2=parseInt(n2,10);
+        sum=n1+n2;
+        sub=n1-n2;
+        mul=n1*n2;
+        div=n1/n2;
+        rem=n1%n2;
+        document.write("plus:"+sum+"<br>");
+        document.write("minus:"+sub+"<br>");
+        document.write("multiplication:"+mul+"<br>");
+        document.write("divition:"+div+"<br>");
+        document.write("remainder:"+rem);
+      </script>
+</body>
+</html>
